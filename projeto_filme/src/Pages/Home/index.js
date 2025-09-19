@@ -37,7 +37,6 @@ function Home() {
                             <strong>{filme['#TITLE']}</strong>
                             <img src={filme['#IMG_POSTER']} alt={filme['#TITLE']} />
                             <Link to={`/filme/${filme['#IMDB_ID']}`}>Acessar pagina do filme</Link>
-                            <Link to={filme["#IMDB_URL"]}>Assista o trailer</Link>
                         </article>
                     )
                 })}
